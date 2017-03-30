@@ -1,0 +1,23 @@
+{
+  "name": "office365-business-outlook",
+  "version": "1.0.0",
+  "description": "Outlook for Business",
+  "main": "index.js",
+  "author": "Cole Diffin <cole.diffin@orionhealth.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://outlook.office365.com/",
+    "serviceName": "Office 365 Outlook",
+    "message": "Access Outlook with Business/Corperate accounts. ",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

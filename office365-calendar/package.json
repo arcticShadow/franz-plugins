@@ -1,0 +1,23 @@
+{
+  "name": "office365-business-calendar",
+  "version": "1.0.0",
+  "description": "Outlook Calendar for Business",
+  "main": "index.js",
+  "author": "Cole Diffin <cole.diffin@orionhealth.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://outlook.office.com/owa/?path=/calendar/view/Month",
+    "serviceName": "Office 365 Calendar",
+    "message": "Access Outlook Calendar with Business/Corperate accounts. ",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

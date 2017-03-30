@@ -1,0 +1,23 @@
+{
+  "name": "office365-teams",
+  "version": "1.0.0",
+  "description": "Microsoft Teams",
+  "main": "index.js",
+  "author": "Cole Diffin <cole.diffin@orionhealth.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://teams.microsoft.com",
+    "serviceName": "Microsoft Teams",
+    "message": "Access Teams with Business/Corperate accounts. ",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": true
+  }
+}
