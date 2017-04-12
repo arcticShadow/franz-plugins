@@ -15,9 +15,7 @@
     "hasTeamID": false,
     "customURL": false,
     "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
+    "webviewOptions": {},
     "openDevTools": false
   }
 }
