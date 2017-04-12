@@ -9,7 +9,9 @@
     "serviceURL": "https://teams.microsoft.com",
     "serviceName": "Microsoft Teams",
     "message": "Access Teams with Business/Corperate accounts. ",
-    "popup": [],
+    "popup": [
+      "^https:\/\/login.microsoftonline.com/organizations/oauth/(.*)"
+    ],
     "hasNotificationSound": true,
     "hasIndirectMessages": false,
     "hasTeamID": false,
