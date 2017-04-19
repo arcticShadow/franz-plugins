@@ -1,0 +1,25 @@
+{
+  "name": "yammer",
+  "version": "1.0.0",
+  "description": "Yammer",
+  "main": "index.js",
+  "author": "Cole Diffin <cole.diffin@orionhealth.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://yammer.com",
+    "serviceName": "Yammer",
+    "message": "Corperate Social Media Netowrks.",
+    "popup": [
+      "^https:\/\/login.microsoftonline.com/organizations/oauth/(.*)"
+    ],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+    },
+    "openDevTools": false
+  }
+}
